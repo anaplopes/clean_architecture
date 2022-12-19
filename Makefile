@@ -1,3 +1,7 @@
+.PHONY: config
+config:
+	python -m venv venv
+
 
 .PHONY: pre-commit
 pre-commit:
