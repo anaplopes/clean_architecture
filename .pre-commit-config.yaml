@@ -1,12 +1,12 @@
 repos:
--   repo: https://github.com/ambv/black
-    rev: stable
+-   repo: https://github.com/psf/black
+    rev: 22.12.0
     hooks:
     - id: black
-      language_version: python3.9.2
+      language_version: python3.9
       stages: [commit]
 -   repo: https://github.com/pycqa/flake8
-    rev: 3.7.9
+    rev: 6.0.0
     hooks:
     - id: flake8
       stages: [commit]
